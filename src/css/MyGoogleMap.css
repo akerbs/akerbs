@@ -1,0 +1,19 @@
+.mapWrapper {
+  position: relative;
+  overflow: hidden;
+  height: 300px;
+  width: 100%;
+  padding-top: 0%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.map {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  width: 100%;
+  height: 500px;
+  border: 0px;
+  margin-top: -150px;
+}

@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "name": "Kerbs",
+  "short_name": "Kerbs",
   "icons": [
     {
       "src": "favicon.ico",
