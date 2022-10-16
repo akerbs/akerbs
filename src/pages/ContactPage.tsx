@@ -13,27 +13,27 @@ export default function ContactPage() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              anker2702@gmx.de
+              anker2702@gmail.com
             </a>
           </li>
           <li>
-            Skype:{" "}
+            Telegram:{" "}
             <a
-              href="skype:draft23"
+              href="https://telegram.me/anker27"
               target="_blank"
               rel="noopener noreferrer"
             >
-              draft23
+              https://t.me/anker27
             </a>
           </li>
           <li>
             Phone:{" "}
             <a
-              href="tel:+4915207350279"
+              href="tel:+79951950725"
               target="_blank"
               rel="noopener noreferrer"
             >
-              0152 0735 0279
+              +7 995 195 07 25
             </a>
           </li>
         </ul>

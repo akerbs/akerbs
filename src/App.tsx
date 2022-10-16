@@ -1,4 +1,4 @@
-import React, { Suspense } from 'react';
+import React, { Suspense, useEffect } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import { Footer } from './components/Footer';
 import { Header } from './components/Header';
@@ -11,6 +11,11 @@ const ContactPage = React.lazy(() => import('./pages/ContactPage'))
 
 
 function App() {
+
+  useEffect(() => {
+    console.log('render');
+  })
+  
   return (
       <div className="App">
         <Suspense fallback={<div>Loading...</div>}>

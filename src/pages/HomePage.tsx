@@ -11,8 +11,8 @@ export default function HomePage() {
         </span>
         <br />
         <br />
-        I love React JS, Redux, Typescript and all things about web development &
-        design.
+        I love all about web development, especially frontend.
+        My stack: react, redux, typescript and related technologies. 
         <br />
         <br /> Feel free to contact with me!
       </div>

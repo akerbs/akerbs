@@ -1,10 +1,16 @@
-import { IItem } from '../models/models'
+import { useEffect } from 'react';
+import { IItem } from '../models/models';
 
 interface ItemProps {
   item: IItem
 }
 
 export function PortfolioItem({item}: ItemProps) {
+
+  useEffect(() => {
+    console.log('render Item');
+  }, [])
+
   return (
     <div className="Portfolio-item">
     <div className="Item-img-container">
