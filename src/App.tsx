@@ -4,11 +4,10 @@ import { Footer } from './components/Footer';
 import { Header } from './components/Header';
 import "./css/App.css";
 import "./css/media.css";
-import { ContactPage } from './pages/ContactPage';
-import { HomePage } from './pages/HomePage';
-// import { PortfolioPage } from './pages/PortfolioPage';
 
+const HomePage = React.lazy(() => import('./pages/HomePage'))
 const PortfolioPage = React.lazy(() => import('./pages/PortfolioPage'))
+const ContactPage = React.lazy(() => import('./pages/ContactPage'))
 
 
 function App() {

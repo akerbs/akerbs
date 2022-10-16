@@ -1,6 +1,6 @@
 import { MyGoogleMap } from "../components/MyGoogleMap";
 
-export function ContactPage() {
+export default function ContactPage() {
   
   return (
     <div className="Contact-content">
