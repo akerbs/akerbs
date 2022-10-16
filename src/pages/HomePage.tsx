@@ -7,12 +7,11 @@ export function HomePage() {
       </div>
       <div className="Home-text-container">
         <span className="Home-text-highlight">
-          Hi there! <br /> My name is Anatol Kerbs and I’m a Web Developer and
-          Designer.
+          Hi there! <br /> My name is Anatol Kerbs and I’m a Frontend Developer.
         </span>
         <br />
         <br />
-        I live in Hamburg, Germany and I love all things about web development &
+        I love React JS, Redux, Typescript and all things about web development &
         design.
         <br />
         <br /> Feel free to contact with me!
