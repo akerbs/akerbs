@@ -14,7 +14,7 @@ export default function HomePage() {
         I love web development, especially frontend.
         My stack: react, redux, typescript and related technologies. 
         <br />
-        <br /> Feel free to contact with me!
+        <br /> Feel free to contact me!
       </div>
     </div>
   );
