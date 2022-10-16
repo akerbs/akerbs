@@ -21,7 +21,7 @@ function App() {
             <Route path='/contact' element={<ContactPage />} />
           </Routes>
           <Footer/>
-      </Suspense>
+        </Suspense>
       </div>
   );
 }

@@ -30,7 +30,6 @@ export function PortfolioItem({item}: ItemProps) {
       <br />
       <a
         href={item.url}
-        // onClick="this.blur()"
         target="_blank"
         rel="noopener noreferrer"
       >
