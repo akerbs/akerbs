@@ -1,4 +1,4 @@
-import React, { Suspense, useEffect } from 'react';
+import React, { Suspense } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import { Footer } from './components/Footer';
 import { Header } from './components/Header';
@@ -10,15 +10,10 @@ const PortfolioPage = React.lazy(() => import('./pages/PortfolioPage'))
 const ContactPage = React.lazy(() => import('./pages/ContactPage'))
 
 
-function App() {
-
-  useEffect(() => {
-    console.log('render');
-  })
-  
+function App() {  
   return (
       <div className="App">
-        <Suspense fallback={<div> Smile please! :) </div>}>
+        <Suspense fallback={ <img src={process.env.PUBLIC_URL + '/img/smile.png'} alt=":)"  />}>
           <Header />
           <Routes>
             <Route path='/' element={<HomePage />} />

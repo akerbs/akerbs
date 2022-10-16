@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 import { IItem } from '../models/models';
 
 interface ItemProps {
@@ -6,10 +5,6 @@ interface ItemProps {
 }
 
 export function PortfolioItem({item}: ItemProps) {
-
-  useEffect(() => {
-    console.log('render Item');
-  }, [])
 
   return (
     <div className="Portfolio-item">

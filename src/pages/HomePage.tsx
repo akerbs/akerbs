@@ -3,7 +3,7 @@ export default function HomePage() {
   return (
     <div className="Home-content">
       <div className="Home-img-container">
-        <img src={process.env.PUBLIC_URL + '/img/banner.jpg'} alt="" className="Home-img" />
+        <img src={process.env.PUBLIC_URL + '/img/banner.jpg'} alt="I am" className="Home-img" />
       </div>
       <div className="Home-text-container">
         <span className="Home-text-highlight">

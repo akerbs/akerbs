@@ -2,6 +2,7 @@ import { Navigation } from "./Navigation";
 import { SocialMedia } from "./SocialMedia";
 
 export function Header() {
+  
   return (
     <header className="App-header">
       
