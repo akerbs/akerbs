@@ -9,7 +9,7 @@ export const items: IItem[] = [
     img: 'item8.jpg',
     stack: 'HTML, CSS, JavaScript, React, Gatsby, JSS, Material UI, NodeJS, Google Analytics',
     description: 'Create responsive multilingual and multicurrency e-store using Stripe API.',
-    url: 'https://my-store-demo.vercel.app/',
+    url: 'https://ecommerce-akerbs.vercel.app/',
   },
   {
     id: 7,
