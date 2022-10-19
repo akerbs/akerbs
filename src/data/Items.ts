@@ -4,7 +4,7 @@ import { IItem } from '../models/models'
 export const items: IItem[] = [
   {
     id: 8,
-    name: 'My Store (demo)',
+    name: 'Yop Shop',
     year: 2020,
     img: 'item8.jpg',
     stack: 'HTML, CSS, JavaScript, React, Gatsby, JSS, Material UI, NodeJS, Google Analytics',
