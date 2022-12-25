@@ -1,7 +1,6 @@
 import "../css/MyGoogleMap.css";
 
-export function MyGoogleMap() {
-  
+const MyGoogleMap: React.FC = () => {
   return (
     <div id="map" className="mapWrapper">
       <iframe
@@ -13,3 +12,4 @@ export function MyGoogleMap() {
   );
 };
 
+export default MyGoogleMap;

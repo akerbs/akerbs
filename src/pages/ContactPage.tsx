@@ -1,7 +1,6 @@
-import { MyGoogleMap } from "../components/MyGoogleMap";
+import MyGoogleMap from "../components/MyGoogleMap";
 
 export default function ContactPage() {
-  
   return (
     <div className="Contact-content">
       <div className="Contact-content-my-contacts">

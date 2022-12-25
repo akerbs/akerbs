@@ -1,20 +1,21 @@
-import { Link } from 'react-router-dom'
+import { Link } from "react-router-dom";
 
-export function Navigation() {
-  
+const Navigation = () => {
   return (
     <nav className="App-nav">
-    <Link to="/" className="header-link">
-      home
-    </Link>
+      <Link to="/" className="header-link">
+        home
+      </Link>
 
-    <Link to="/portfolio" className="header-link">
-      portfolio
-    </Link>
+      <Link to="/portfolio" className="header-link">
+        portfolio
+      </Link>
 
-    <Link to="/contact" className="header-link">
-      contact
-    </Link>
-  </nav>
-  )
+      <Link to="/contact" className="header-link">
+        contact
+      </Link>
+    </nav>
+  );
 };
+
+export default Navigation;
