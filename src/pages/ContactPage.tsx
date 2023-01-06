@@ -25,7 +25,7 @@ export default function ContactPage() {
               https://t.me/anker27
             </a>
           </li>
-          <li>
+          {/* <li>
             Phone:{" "}
             <a
               href="tel:+79951950725"
@@ -34,7 +34,7 @@ export default function ContactPage() {
             >
               +7 995 195 07 25
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
       <div className="Contact-content-google-map">
