@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="610" viewBox="0 0 1180 610">
+  <style>
+    .d { display:block } .l { display:none }
+    @media(prefers-color-scheme:light){ .d { display:none } .l { display:block } }
+    @keyframes f{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+    @keyframes b{0%,50%{opacity:1}51%,100%{opacity:0}}
+    @keyframes a{from{opacity:0;transform:translateX(-10px)}to{opacity:1;transform:translateX(0)}}
+    .fl{animation:f 4s ease-in-out infinite}
+    .bl{animation:b 1s step-end infinite}
+    .s1{animation:a .6s ease-out forwards;opacity:0;animation-delay:.3s}
+    .s2{animation:a .6s ease-out forwards;opacity:0;animation-delay:.8s}
+    .s3{animation:a .6s ease-out forwards;opacity:0;animation-delay:1.3s}
+    .s4{animation:a .6s ease-out forwards;opacity:0;animation-delay:1.8s}
+    .s5{animation:a .5s ease-out forwards;opacity:0;animation-delay:2.3s}
+    .s6{animation:a .5s ease-out forwards;opacity:0;animation-delay:2.7s}
+    .s7{animation:a .5s ease-out forwards;opacity:0;animation-delay:3.1s}
+    .s8{animation:a .5s ease-out forwards;opacity:0;animation-delay:3.5s}
+    .s9{animation:a .5s ease-out forwards;opacity:0;animation-delay:3.9s}
+    .p{animation:pulse 3s ease-in-out infinite}
+  </style>
+  <defs>
+    <linearGradient id="g"><stop offset="0%" stop-color="#7C3AED"/><stop offset="50%" stop-color="#22D3EE"/><stop offset="100%" stop-color="#10B981"/></linearGradient>
+    <linearGradient id="gl"><stop offset="0%" stop-color="#2563EB"/><stop offset="50%" stop-color="#06B6D4"/><stop offset="100%" stop-color="#10B981"/></linearGradient>
+    <filter id="s"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <g class="d">
+    <rect width="1180" height="610" rx="24" fill="#030712"/>
+    <rect x="24" y="24" width="420" height="562" rx="16" fill="#0F172A" opacity=".55"/>
+    <rect x="24" y="24" width="420" height="562" rx="16" fill="none" stroke="#7C3AED" stroke-width="1"/>
+    <circle cx="52" cy="50" r="5" fill="#EF4444"/><circle cx="70" cy="50" r="5" fill="#F59E0B"/><circle cx="88" cy="50" r="5" fill="#10B981"/>
+    <text x="110" y="55" fill="#64748B" font-family="monospace" font-size="11">terminal</text>
+    <g class="fl" font-family="monospace" font-size="13" font-weight="bold" letter-spacing="1">
+      <text x="50" y="100" fill="url(#g)" filter="url(#s)">╔══════════════════╗</text>
+      <text x="50" y="120" fill="url(#g)" filter="url(#s)">║  █████╗ ██╗  ██║</text>
+      <text x="50" y="140" fill="url(#g)" filter="url(#s)">║ ██╔══██╗██║ ██╔╝</text>
+      <text x="50" y="160" fill="url(#g)" filter="url(#s)">║ ███████║█████╔╝</text>
+      <text x="50" y="180" fill="url(#g)" filter="url(#s)">║ ██╔══██║██╔═██╗</text>
+      <text x="50" y="200" fill="url(#g)" filter="url(#s)">║ ██║  ██║██║ ╚██╗</text>
+      <text x="50" y="220" fill="url(#g)" filter="url(#s)">║ ╚═╝  ╚═╝╚═╝  ╚═╝</text>
+      <text x="50" y="240" fill="url(#g)" filter="url(#s)">╚══════════════════╝</text>
+    </g>
+    <g font-family="monospace" font-size="12">
+      <text x="50" y="280" fill="#64748B" class="s1">$ whoami</text>
+      <text x="50" y="300" fill="#22D3EE" class="s2">› Anatol Kerbs</text>
+      <text x="50" y="330" fill="#64748B" class="s3">$ pwd</text>
+      <text x="50" y="350" fill="#22D3EE" class="s4">› /home/akerbs/dev</text>
+      <text x="50" y="380" fill="#64748B" class="s5">$ uptime</text>
+      <text x="50" y="400" fill="#22D3EE" class="s6">› 5+ years online</text>
+      <text x="50" y="440" fill="#64748B" class="s7">$ <tspan class="bl">_</tspan></text>
+    </g>
+    <rect x="464" y="24" width="692" height="562" rx="16" fill="#0F172A" opacity=".55"/>
+    <rect x="464" y="24" width="692" height="562" rx="16" fill="none" stroke="#7C3AED" stroke-width="1"/>
+    <circle cx="492" cy="50" r="5" fill="#EF4444"/><circle cx="510" cy="50" r="5" fill="#F59E0B"/><circle cx="528" cy="50" r="5" fill="#10B981"/>
+    <text x="550" y="55" fill="#64748B" font-family="monospace" font-size="11">profile.sh</text>
+    <text x="492" y="100" font-size="28" font-weight="700" fill="#E2E8F0" class="s1">Hi 👋</text>
+    <text x="492" y="140" font-size="28" font-weight="700" fill="url(#g)" filter="url(#s)" class="s2">I'm Anatol Kerbs</text>
+    <text x="492" y="180" font-size="16" fill="#7C3AED" class="s3" font-family="monospace" font-weight="600">$ Frontend Engineer</text>
+    <line x1="492" y1="205" x2="1128" y2="205" stroke="#7C3AED" stroke-opacity=".3" stroke-width="1" class="s4"/>
+    <g font-family="monospace" font-size="13">
+      <text x="492" y="240" fill="#64748B" class="s5">📍 Location</text><text x="630" y="240" fill="#E2E8F0" class="s5">Moscow, Russia</text>
+      <text x="492" y="270" fill="#64748B" class="s6">🎓 Education</text><text x="630" y="270" fill="#E2E8F0" class="s6">BSc Computer Science</text>
+      <text x="492" y="300" fill="#64748B" class="s7">🎯 Focus</text><text x="630" y="300" fill="#E2E8F0" class="s7">React, TypeScript, AI</text>
+      <text x="492" y="330" fill="#64748B" class="s8">🌐 Portfolio</text><text x="630" y="330" fill="#22D3EE" class="s8">akerbs.netlify.app</text>
+      <text x="492" y="360" fill="#64748B" class="s9">✉️ Email</text><text x="630" y="360" fill="#E2E8F0" class="s9">akerbs@gmail.com</text>
+    </g>
+    <line x1="492" y1="385" x2="1128" y2="385" stroke="#7C3AED" stroke-opacity=".3" stroke-width="1" class="s9"/>
+    <text x="492" y="412" fill="#64748B" font-family="monospace" font-size="11" font-weight="600" class="s9">SKILLS</text>
+    <g font-family="monospace" font-size="11" font-weight="600">
+      <g class="s5"><rect x="492" y="422" width="60" height="26" rx="13" fill="rgba(124,58,237,.15)" stroke="#7C3AED" stroke-width="1"/><text x="522" y="439" text-anchor="middle" fill="#E2E8F0">React</text></g>
+      <g class="s6"><rect x="560" y="422" width="68" height="26" rx="13" fill="rgba(34,211,238,.15)" stroke="#22D3EE" stroke-width="1"/><text x="594" y="439" text-anchor="middle" fill="#E2E8F0">Next.js</text></g>
+      <g class="s7"><rect x="636" y="422" width="58" height="26" rx="13" fill="rgba(16,185,129,.15)" stroke="#10B981" stroke-width="1"/><text x="665" y="439" text-anchor="middle" fill="#E2E8F0">Node</text></g>
+      <g class="s8"><rect x="702" y="422" width="72" height="26" rx="13" fill="rgba(99,102,241,.15)" stroke="#818CF8" stroke-width="1"/><text x="738" y="439" text-anchor="middle" fill="#E2E8F0">TypeScript</text></g>
+      <g class="s9"><rect x="782" y="422" width="64" height="26" rx="13" fill="rgba(6,182,212,.15)" stroke="#22D3EE" stroke-width="1"/><text x="814" y="439" text-anchor="middle" fill="#E2E8F0">Tailwind</text></g>
+    </g>
+    <g font-family="monospace" font-size="11" font-weight="600">
+      <g class="s5"><rect x="492" y="458" width="60" height="26" rx="13" fill="rgba(59,130,246,.15)" stroke="#60A5FA" stroke-width="1"/><text x="522" y="475" text-anchor="middle" fill="#E2E8F0">Docker</text></g>
+      <g class="s6"><rect x="560" y="458" width="70" height="26" rx="13" fill="rgba(6,182,212,.15)" stroke="#22D3EE" stroke-width="1"/><text x="595" y="475" text-anchor="middle" fill="#E2E8F0">Postgres</text></g>
+      <g class="s7"><rect x="638" y="458" width="70" height="26" rx="13" fill="rgba(249,115,22,.15)" stroke="#FB923C" stroke-width="1"/><text x="673" y="475" text-anchor="middle" fill="#E2E8F0">AWS</text></g>
+      <g class="s8"><rect x="716" y="458" width="44" height="26" rx="13" fill="rgba(236,72,153,.15)" stroke="#F472B6" stroke-width="1"/><text x="738" y="475" text-anchor="middle" fill="#E2E8F0">Git</text></g>
+      <g class="s9"><rect x="768" y="458" width="50" height="26" rx="13" fill="rgba(168,85,247,.15)" stroke="#A78BFA" stroke-width="1"/><text x="793" y="475" text-anchor="middle" fill="#E2E8F0">Figma</text></g>
+    </g>
+    <line x1="492" y1="505" x2="1128" y2="505" stroke="#7C3AED" stroke-opacity=".3" stroke-width="1" class="s9"/>
+    <text x="492" y="530" fill="#64748B" font-family="monospace" font-size="11" font-weight="600" class="s8">CONNECT</text>
+    <g class="s8"><circle cx="525" cy="555" r="18" fill="rgba(255,255,255,.04)" stroke="#7C3AED" stroke-width="1"/><text x="525" y="560" text-anchor="middle" fill="#E2E8F0" font-family="monospace" font-size="10" font-weight="600">GH</text><text x="525" y="590" text-anchor="middle" fill="#64748B" font-family="monospace" font-size="10">GitHub</text></g>
+    <g class="s9"><circle cx="605" cy="555" r="18" fill="rgba(255,255,255,.04)" stroke="#22D3EE" stroke-width="1"/><text x="605" y="560" text-anchor="middle" fill="#E2E8F0" font-family="monospace" font-size="10" font-weight="600">TW</text><text x="605" y="590" text-anchor="middle" fill="#64748B" font-family="monospace" font-size="10">Twitter</text></g>
+    <g class="s8"><circle cx="685" cy="555" r="18" fill="rgba(124,58,237,.15)" stroke="#10B981" stroke-width="1"/><text x="685" y="560" text-anchor="middle" fill="#22D3EE" font-family="monospace" font-size="10" font-weight="600">PF</text><text x="685" y="590" text-anchor="middle" fill="#64748B" font-family="monospace" font-size="10">Portfolio</text></g>
+    <text x="44" y="562" fill="#475569" font-family="monospace" font-size="10">powered by AI Content Studio</text>
+  </g>
+  <g class="l">
+    <rect width="1180" height="610" rx="24" fill="#FFFFFF"/>
+    <rect x="2" y="2" width="1176" height="606" rx="22" fill="none" stroke="#2563EB" stroke-width="1" opacity=".3"/>
+    <rect x="24" y="24" width="420" height="562" rx="16" fill="#F8FAFC" opacity=".8"/>
+    <rect x="24" y="24" width="420" height="562" rx="16" fill="none" stroke="#2563EB" stroke-width="1"/>
+    <circle cx="52" cy="50" r="5" fill="#EF4444"/><circle cx="70" cy="50" r="5" fill="#F59E0B"/><circle cx="88" cy="50" r="5" fill="#10B981"/>
+    <text x="110" y="55" fill="#94A3B8" font-family="monospace" font-size="11">terminal</text>
+    <g class="fl" font-family="monospace" font-size="13" font-weight="bold" letter-spacing="1">
+      <text x="50" y="100" fill="url(#gl)">╔══════════════════╗</text>
+      <text x="50" y="120" fill="url(#gl)">║  █████╗ ██╗  ██║</text>
+      <text x="50" y="140" fill="url(#gl)">║ ██╔══██╗██║ ██╔╝</text>
+      <text x="50" y="160" fill="url(#gl)">║ ███████║█████╔╝</text>
+      <text x="50" y="180" fill="url(#gl)">║ ██╔══██║██╔═██╗</text>
+      <text x="50" y="200" fill="url(#gl)">║ ██║  ██║██║ ╚██╗</text>
+      <text x="50" y="220" fill="url(#gl)">║ ╚═╝  ╚═╝╚═╝  ╚═╝</text>
+      <text x="50" y="240" fill="url(#gl)">╚══════════════════╝</text>
+    </g>
+    <g font-family="monospace" font-size="12">
+      <text x="50" y="280" fill="#94A3B8" class="s1">$ whoami</text>
+      <text x="50" y="300" fill="#2563EB" class="s2">› Anatol Kerbs</text>
+      <text x="50" y="330" fill="#94A3B8" class="s3">$ pwd</text>
+      <text x="50" y="350" fill="#2563EB" class="s4">› /home/akerbs/dev</text>
+      <text x="50" y="380" fill="#94A3B8" class="s5">$ uptime</text>
+      <text x="50" y="400" fill="#2563EB" class="s6">› 5+ years online</text>
+      <text x="50" y="440" fill="#94A3B8" class="s7">$ <tspan class="bl">_</tspan></text>
+    </g>
+    <rect x="464" y="24" width="692" height="562" rx="16" fill="#F8FAFC" opacity=".8"/>
+    <rect x="464" y="24" width="692" height="562" rx="16" fill="none" stroke="#2563EB" stroke-width="1"/>
+    <circle cx="492" cy="50" r="5" fill="#EF4444"/><circle cx="510" cy="50" r="5" fill="#F59E0B"/><circle cx="528" cy="50" r="5" fill="#10B981"/>
+    <text x="550" y="55" fill="#94A3B8" font-family="monospace" font-size="11">profile.sh</text>
+    <text x="492" y="100" font-size="28" font-weight="700" fill="#0F172A" class="s1">Hi 👋</text>
+    <text x="492" y="140" font-size="28" font-weight="700" fill="url(#gl)" class="s2">I'm Anatol Kerbs</text>
+    <text x="492" y="180" font-size="16" fill="#2563EB" class="s3" font-family="monospace" font-weight="600">$ Frontend Engineer</text>
+    <line x1="492" y1="205" x2="1128" y2="205" stroke="#2563EB" stroke-opacity=".2" stroke-width="1" class="s4"/>
+    <g font-family="monospace" font-size="13">
+      <text x="492" y="240" fill="#94A3B8" class="s5">📍 Location</text><text x="630" y="240" fill="#0F172A" class="s5">Moscow, Russia</text>
+      <text x="492" y="270" fill="#94A3B8" class="s6">🎓 Education</text><text x="630" y="270" fill="#0F172A" class="s6">BSc Computer Science</text>
+      <text x="492" y="300" fill="#94A3B8" class="s7">🎯 Focus</text><text x="630" y="300" fill="#0F172A" class="s7">React, TypeScript, AI</text>
+      <text x="492" y="330" fill="#94A3B8" class="s8">🌐 Portfolio</text><text x="630" y="330" fill="#2563EB" class="s8">akerbs.netlify.app</text>
+      <text x="492" y="360" fill="#94A3B8" class="s9">✉️ Email</text><text x="630" y="360" fill="#0F172A" class="s9">akerbs@gmail.com</text>
+    </g>
+    <line x1="492" y1="385" x2="1128" y2="385" stroke="#2563EB" stroke-opacity=".2" stroke-width="1" class="s9"/>
+    <text x="492" y="412" fill="#475569" font-family="monospace" font-size="11" font-weight="600" class="s9">SKILLS</text>
+    <g font-family="monospace" font-size="11" font-weight="600">
+      <g class="s5"><rect x="492" y="422" width="60" height="26" rx="13" fill="rgba(37,99,235,.1)" stroke="#2563EB" stroke-width="1"/><text x="522" y="439" text-anchor="middle" fill="#0F172A">React</text></g>
+      <g class="s6"><rect x="560" y="422" width="68" height="26" rx="13" fill="rgba(6,182,212,.1)" stroke="#06B6D4" stroke-width="1"/><text x="594" y="439" text-anchor="middle" fill="#0F172A">Next.js</text></g>
+      <g class="s7"><rect x="636" y="422" width="58" height="26" rx="13" fill="rgba(16,185,129,.1)" stroke="#10B981" stroke-width="1"/><text x="665" y="439" text-anchor="middle" fill="#0F172A">Node</text></g>
+      <g class="s8"><rect x="702" y="422" width="72" height="26" rx="13" fill="rgba(99,102,241,.1)" stroke="#6366F1" stroke-width="1"/><text x="738" y="439" text-anchor="middle" fill="#0F172A">TypeScript</text></g>
+      <g class="s9"><rect x="782" y="422" width="64" height="26" rx="13" fill="rgba(6,182,212,.1)" stroke="#06B6D4" stroke-width="1"/><text x="814" y="439" text-anchor="middle" fill="#0F172A">Tailwind</text></g>
+    </g>
+    <g font-family="monospace" font-size="11" font-weight="600">
+      <g class="s5"><rect x="492" y="458" width="60" height="26" rx="13" fill="rgba(37,99,235,.1)" stroke="#2563EB" stroke-width="1"/><text x="522" y="475" text-anchor="middle" fill="#0F172A">Docker</text></g>
+      <g class="s6"><rect x="560" y="458" width="70" height="26" rx="13" fill="rgba(6,182,212,.1)" stroke="#06B6D4" stroke-width="1"/><text x="595" y="475" text-anchor="middle" fill="#0F172A">Postgres</text></g>
+      <g class="s7"><rect x="638" y="458" width="70" height="26" rx="13" fill="rgba(249,115,22,.1)" stroke="#EA580C" stroke-width="1"/><text x="673" y="475" text-anchor="middle" fill="#0F172A">AWS</text></g>
+      <g class="s8"><rect x="716" y="458" width="44" height="26" rx="13" fill="rgba(236,72,153,.1)" stroke="#DB2777" stroke-width="1"/><text x="738" y="475" text-anchor="middle" fill="#0F172A">Git</text></g>
+      <g class="s9"><rect x="768" y="458" width="50" height="26" rx="13" fill="rgba(124,58,237,.1)" stroke="#7C3AED" stroke-width="1"/><text x="793" y="475" text-anchor="middle" fill="#0F172A">Figma</text></g>
+    </g>
+    <line x1="492" y1="505" x2="1128" y2="505" stroke="#2563EB" stroke-opacity=".2" stroke-width="1" class="s9"/>
+    <text x="492" y="530" fill="#475569" font-family="monospace" font-size="11" font-weight="600" class="s8">CONNECT</text>
+    <g class="s8"><circle cx="525" cy="555" r="18" fill="rgba(37,99,235,.05)" stroke="#2563EB" stroke-width="1"/><text x="525" y="560" text-anchor="middle" fill="#0F172A" font-family="monospace" font-size="10" font-weight="600">GH</text><text x="525" y="590" text-anchor="middle" fill="#475569" font-family="monospace" font-size="10">GitHub</text></g>
+    <g class="s9"><circle cx="605" cy="555" r="18" fill="rgba(6,182,212,.05)" stroke="#06B6D4" stroke-width="1"/><text x="605" y="560" text-anchor="middle" fill="#0F172A" font-family="monospace" font-size="10" font-weight="600">TW</text><text x="605" y="590" text-anchor="middle" fill="#475569" font-family="monospace" font-size="10">Twitter</text></g>
+    <g class="s8"><circle cx="685" cy="555" r="18" fill="rgba(37,99,235,.1)" stroke="#2563EB" stroke-width="1"/><text x="685" y="560" text-anchor="middle" fill="#06B6D4" font-family="monospace" font-size="10" font-weight="600">PF</text><text x="685" y="590" text-anchor="middle" fill="#475569" font-family="monospace" font-size="10">Portfolio</text></g>
+    <text x="44" y="562" fill="#94A3B8" font-family="monospace" font-size="10">powered by AI Content Studio</text>
+  </g>
+</svg>
